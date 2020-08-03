@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+body{
+    font-family: 'Comfortaa', cursive;
+    background: linear-gradient(320deg, #05d5e1, #f38ae6);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:7% 0%}
+    50%{background-position:94% 100%}
+    100%{background-position:7% 0%}
+}
+
+.name_wrapper{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.name{
+    font-size: 50px;
+    margin: 0;
+}
+
+.name_wrapper p{
+  color: #FFF;
+}
+
+.header a{
+  align-items: center;
+  margin: 0
+}
+
+main{
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+main h1{
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+}
+main img{
+    width: 84px;
+}
+
+.join{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #FFF;
+}
+.join h1{
+  padding: 0
+}
+.join a{
+    margin: 0;
+    padding: 15px;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.main_wrapper{
+    display: inline-block;
+    align-items: center;
+    max-width: auto;
+    margin: 30px;
+    transition: transform 0.2s;
+    transform: scale(1);
+    border-radius: 10px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.main_wrapper p{
+    max-width: 500px;
+    color: #000
+}
+
+.main_wrapper:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.madeby{
+  background-color: #FFF;
+  padding: 0;
+  margin: 0;
+}
