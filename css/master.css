@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;;
     background: linear-gradient(320deg, #05d5e1, #f38ae6);
     background-size: 800% 800%;
     -webkit-animation: AnimationName 10s ease infinite;
@@ -76,14 +75,11 @@ main img{
   text-align: center;
   color: #FFF;
 }
-.join h1{
-  margin: 0;
-}
+
 .join a{
-    margin: 0;
     padding: 15px;
     padding-top: 2%;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
     margin-top: 2%;
 }
 
@@ -108,8 +104,13 @@ main img{
     transform: scale(1.1);
 }
 
-.madeby{
+.madeby {
   background-color: #FFF;
-  padding: 0;
-  margin: 0;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.madeby a{
 }
