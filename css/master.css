@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 body{
     font-family: 'Comfortaa', cursive;
@@ -77,7 +77,7 @@ main img{
   color: #FFF;
 }
 .join h1{
-  padding: 0
+  margin: 0;
 }
 .join a{
     margin: 0;
@@ -100,7 +100,7 @@ main img{
 }
 .main_wrapper p{
     max-width: 500px;
-    color: #000
+    color: #000;
 }
 
 .main_wrapper:hover{
