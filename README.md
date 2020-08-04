@@ -1,2 +1,2 @@
 # Just my site :)
-__Visit them! https://arslee.tk__
+Visit them! https://arslee.tk
