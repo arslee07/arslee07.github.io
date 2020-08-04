@@ -1,5 +1,2 @@
-# hey patrick
-nice c0ck
-
-__саси жопу ахахахаа ищи себя а прошмардовках афганистана__
-
+Just my site :)
+Visit them! https://arslee.tk
