@@ -121,3 +121,20 @@ main img{
 .madeby p{
     text-align: center;
 }
+
+.media {
+    font-size: 55px;
+    color: #fff;
+    transition: 0.25s;
+    transition-property: color, border, padding;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    padding: 5px;
+}
+.media:hover {
+    font-size: 55px;
+    color: #444;
+    border: 5px solid #444;
+    border-radius: 15px;
+    padding: 5px 50px;
+}
