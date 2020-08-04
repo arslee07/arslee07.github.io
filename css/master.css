@@ -2,7 +2,7 @@
 body{
     font-family: 'Montserrat', sans-serif;;
     background: linear-gradient(320deg, #05d5e1, #f38ae6);
-    background-size: 800% 800%;
+    background-size: 400% 400%;
     -webkit-animation: AnimationName 10s ease infinite;
     -moz-animation: AnimationName 10s ease infinite;
     -o-animation: AnimationName 10s ease infinite;
@@ -34,6 +34,10 @@ body{
     100%{background-position:7% 0%}
 }
 
+a {
+  text-decoration: none;
+}
+
 .name_wrapper{
     text-align: center;
     margin-top: 10%;
@@ -60,13 +64,14 @@ main{
     padding: 20px;
     margin: 0;
 }
+
 main h1{
     text-align: center;
     padding: 0;
-    margin: 20px;
+    margin: 25px;
 }
 main img{
-    width: 84px;
+    width: 150px;
 }
 
 .join{
@@ -74,12 +79,14 @@ main img{
   padding: 0;
   text-align: center;
   color: #FFF;
+  margin-bottom: 25px;
 }
 
 .join a{
+    color: #FFF;
     padding: 15px;
     padding-top: 2%;
-    /* margin-bottom: 2%; */
+    margin-bottom: 2%;
     margin-top: 2%;
 }
 
@@ -88,8 +95,8 @@ main img{
     align-items: center;
     max-width: auto;
     margin: 30px;
-    transition: transform 0.2s;
     transform: scale(1);
+    transition: transform 0.5s;
     border-radius: 10px;
     background-color: #fff;
     padding-bottom: 20px;
@@ -107,10 +114,10 @@ main img{
 .madeby {
   background-color: #FFF;
   padding: 15px;
-  margin-top: 20px;
   text-align: center;
   align-items: center;
 }
 
-.madeby a{
+.madeby p{
+    text-align: center;
 }
