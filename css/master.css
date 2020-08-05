@@ -1,41 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;;
-    background: linear-gradient(320deg, #05d5e1, #f38ae6);
-    background-size: 400% 400%;
-    -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 10s ease infinite;
-    -o-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
-
+    background: linear-gradient(270deg, #f55959, #d98f28, #e4c207, #61c51e, #34aa96, #4c9efd, #d26df0);
+    background-size: 1400% 1400%;
+    animation: AnimationName 51s ease infinite;
     font-size: 20px;
     margin: 0;
     padding: 0;
 }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:7% 0%}
-    50%{background-position:94% 100%}
-    100%{background-position:7% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:7% 0%}
-    50%{background-position:94% 100%}
-    100%{background-position:7% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:7% 0%}
-    50%{background-position:94% 100%}
-    100%{background-position:7% 0%}
-}
 @keyframes AnimationName {
-    0%{background-position:7% 0%}
-    50%{background-position:94% 100%}
-    100%{background-position:7% 0%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+img {
+  pointer-events: none
 }
 
 .name_wrapper{
@@ -71,7 +57,7 @@ main h1{
     margin: 25px;
 }
 main img{
-    width: 150px;
+    width: 100px;
 }
 
 .join{
@@ -84,8 +70,9 @@ main img{
 
 .join a{
     color: #FFF;
-    padding: 15px;
     padding-top: 2%;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-bottom: 2%;
     margin-top: 2%;
 }
@@ -93,13 +80,15 @@ main img{
 .main_wrapper{
     display: inline-block;
     align-items: center;
-    max-width: auto;
+    max-width: 100%;
     margin: 30px;
     transform: scale(1);
-    transition: transform 0.5s;
+    transition: 0.5s;
+    transition-property: all;
     border-radius: 10px;
     background-color: #fff;
-    padding-bottom: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    padding: 20px;
 }
 .main_wrapper p{
     max-width: 500px;
@@ -108,6 +97,7 @@ main img{
 
 .main_wrapper:hover{
     transition: 0.5s;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
     transform: scale(1.1);
 }
 
@@ -122,19 +112,57 @@ main img{
     text-align: center;
 }
 
+.madeby .link{
+  color: #058dd9;
+}
+
 .media {
-    font-size: 55px;
+    font-size: 40px;
     color: #fff;
     transition: 0.25s;
+    background-color: none;
     transition-property: color, border, padding;
-    border: 5px solid #fff;
+    border: 3px solid #fff;
     border-radius: 15px;
     padding: 5px;
 }
-.media:hover {
-    font-size: 55px;
-    color: #444;
-    border: 5px solid #444;
+
+.gh:hover {
+    font-size: 40px;
+    background-color: #444;
+    border: 3px solid #444;
+    border-radius: 15px;
+    padding: 5px 50px;
+}
+
+.vk:hover {
+    font-size: 40px;
+    background-color: #597da3;
+    border: 3px solid #597da3;
+    border-radius: 15px;
+    padding: 5px 50px;
+}
+
+.rd:hover {
+    font-size: 40px;
+    background-color: #FF4500;
+    border: 3px solid #FF4500;
+    border-radius: 15px;
+    padding: 5px 50px;
+}
+
+.tg:hover {
+    font-size: 40px;
+    background-color: #0088cc;
+    border: 3px solid #0088cc;
+    border-radius: 15px;
+    padding: 5px 50px;
+}
+
+.ml:hover {
+    font-size: 40px;
+    background-color: #407e03;
+    border: 3px solid #407e03;
     border-radius: 15px;
     padding: 5px 50px;
 }
