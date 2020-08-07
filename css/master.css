@@ -58,6 +58,7 @@ main h1 {
   padding: 0;
   margin: 25px;
 }
+
 main img {
   width: 100px;
 }
@@ -97,6 +98,7 @@ main img {
 
 .main_wrapper p {
   max-width: 500px;
+  text-align: center;
   color: #000;
 }
 
