@@ -3,7 +3,7 @@ body {
   font-family: 'Montserrat', sans-serif;;
   background: linear-gradient(270deg, #f55959, #d98f28, #e4c207, #61c51e, #34aa96, #4c9efd, #d26df0);
   background-size: 1400% 1400%;
-  animation: AnimationName 51s ease infinite;
+  animation: AnimationName 50s ease infinite;
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -37,6 +37,7 @@ img {
 
 .name_wrapper p {
   color: #FFF;
+  margin: 20px;
 }
 
 .header a {
@@ -48,13 +49,14 @@ main {
   background: #fff;
   box-shadow: 0 0 30px rgba(0,0,0,0.5);
   text-align: center;
-  min-width: 500px;
+  min-width: 460px;
   padding: 20px;
   margin: 0;
 }
 
 main h1 {
   text-align: center;
+  margin: 0;
   padding: 0;
   margin: 25px;
 }
@@ -83,7 +85,7 @@ main img {
 .main_wrapper {
   display: inline-block;
   align-items: center;
-  min-width: 150px;
+  min-width: 50px;
   height: 260px;
   width: 450px;
   margin: 30px;
@@ -97,8 +99,9 @@ main img {
 }
 
 .main_wrapper p {
-  max-width: 500px;
   text-align: center;
+  margin: 0;
+  padding: 0;
   color: #000;
 }
 
@@ -134,37 +137,43 @@ main img {
   color: #fff;
   transition: 0.25s;
   background-color: none;
-  transition-property: padding, background;
+  transition-property: padding, background, box-shadow;
   border-radius: 15px;
   padding: 5px 15px;
 }
 @media (min-width: 600px) {
     .media:hover{
+        box-shadow: 0 0 30px rgba(0,0,0,0.5);
         padding: 5px 30px;
     }
 }
 
 .gh:hover {
   background-color: #444;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
 .vk:hover {
   background-color: #597da3;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
 .rd:hover {
   background-color: #FF4500;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
 .tg:hover {
   background-color: #0088cc;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
 .ml:hover {
-  background-color: #407e03;
+  background-color: #f22323;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
-@media (max-width: 750px) {
+@media (max-width: 980px) {
     .main_wrapper{
         display: block;
         max-width: auto;
