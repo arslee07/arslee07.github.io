@@ -7,9 +7,9 @@ class Header extends Component {
   render() {
     return (
       <>
-        <div className={'row text-center'}>
+        <div className={'row text-center mx-auto'}>
           <img
-            className="img-fluid shadow-lg"
+            className="img-fluid shadow-lg mx-auto my-auto"
             src={pfp}
             style={{
               borderRadius: '50%',
@@ -17,7 +17,7 @@ class Header extends Component {
               maxHeight: '120px',
             }}
           />
-          <MDBCol middle className={'text-left'}>
+          <MDBCol middle className={'text-sm-left'}>
             <h1 className={'m-0'}>arslee 💻</h1>
             <h3 className={'text-muted mx-0 mt-0 mb-2'}>i build things</h3>
             <MDBRow around>
