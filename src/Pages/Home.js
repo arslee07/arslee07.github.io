@@ -4,6 +4,7 @@ import { MDBAnimation, MDBCol, MDBRow } from 'mdbreact';
 import { FiGithub, FiMail, RiTelegramLine } from 'react-icons/all';
 import '../Stylesheets/Header.css';
 import { Link } from 'react-router-dom';
+import ReactTooltip from 'react-tooltip';
 
 class Home extends Component {
   render() {
@@ -36,17 +37,58 @@ class Home extends Component {
 
                 <MDBRow around>
                   <a
+                    data-tip
+                    data-for={'github'}
                     href={'https://github.com/arslee07'}
                     style={{ color: '#211F1F' }}
                   >
                     <FiGithub fontSize={26} />
                   </a>
-                  <a href={'https://t.me/arslee'} style={{ color: '#0088CC' }}>
+                  <ReactTooltip
+                    place="bottom"
+                    type="dark"
+                    effect="solid"
+                    id={'github'}
+                    className={'py-1 px-2'}
+                  >
+                    <span>github.com/arslee07</span>
+                  </ReactTooltip>
+
+                  <a
+                    data-tip
+                    data-for={'telegram'}
+                    href={'https://t.me/arslee'}
+                    style={{ color: '#0088CC' }}
+                  >
                     <RiTelegramLine fontSize={30} />
                   </a>
-                  <a href={'mailto:me@arslee.dev'} style={{ color: '#EA4335' }}>
+                  <ReactTooltip
+                    place="bottom"
+                    type="dark"
+                    effect="solid"
+                    id={'telegram'}
+                    className={'py-1 px-2'}
+                  >
+                    <span>t.me/arslee</span>
+                  </ReactTooltip>
+
+                  <a
+                    data-tip
+                    data-for={'mail'}
+                    href={'mailto:me@arslee.dev'}
+                    style={{ color: '#EA4335' }}
+                  >
                     <FiMail fontSize={26} />
                   </a>
+                  <ReactTooltip
+                    place="bottom"
+                    type="dark"
+                    effect="solid"
+                    id={'mail'}
+                    className={'py-1 px-2'}
+                  >
+                    <span>me@arslee.dev</span>
+                  </ReactTooltip>
                 </MDBRow>
               </MDBCol>
             </div>
