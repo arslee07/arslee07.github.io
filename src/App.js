@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './Components/Header';
+import Home from './Pages/Home';
 import Main from './Pages/Main';
 
 const App = () => (
   <div>
-    <Header />
+    <Home />
     <Main />
   </div>
 );
