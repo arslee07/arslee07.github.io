@@ -1,12 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { HashRouter } from 'react-router-dom';
-import App from './Pages/Main';
+import Main from './Pages/Main';
 import './Stylesheets/bootstrap.min.css';
+// import './index.css';
 
 render(
   <HashRouter>
-    <App />
+    <Main />
   </HashRouter>,
   document.getElementById('root')
 );
