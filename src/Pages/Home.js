@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import pfp from '../Images/pfp.png';
+import pfp from '../Images/ars.png';
 import { MDBAnimation, MDBCol, MDBRow } from 'mdbreact';
 import { FiGithub, FiMail, RiTelegramLine } from 'react-icons/all';
 import '../Stylesheets/Header.css';
