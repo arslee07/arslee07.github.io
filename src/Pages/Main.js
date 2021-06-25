@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Stylesheets/style.css'
+import '../Stylesheets/Header.css'
 import {Card} from "react-bootstrap";
 
 import ars from "../Images/ars.png";
