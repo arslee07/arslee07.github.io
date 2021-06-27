@@ -19,7 +19,7 @@ render(
       >
         <div className={'row text-center mx-auto justify-content-center'}>
           <MDBCol className={'px-0'}>
-            <a href="/about">
+            <a href="/about.pdf">
               <img
                 alt={'pfp'}
                 className="img-fluid shadow mx-auto my-auto pfp"
