@@ -17,6 +17,7 @@
             font-weight: 400;
             src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            font-display: swap;
         }
 
         *,
@@ -120,7 +121,8 @@
     <div class="container">
         <div>
             <div class="head">
-                <img src="avatar.png" class="avatar" alt="Avatar">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV/TFkUqDhYU6ZChOlkQFREnrUIRKpRaoVUHk0u/oElDkuLiKLgWHPxYrDq4OOvq4CoIgh8gjk5Oii5S4v+SQosYD4778e7e4+4dIDQqTDUDY4CqWUY6ERezuVWx6xVBDCCACGYkZupzqVQSnuPrHj6+3sV4lve5P0evkjcZ4BOJZ5luWMQbxFObls55nzjMSpJCfE48atAFiR+5Lrv8xrnosMAzw0YmPU8cJhaLHSx3MCsZKvEkcVRRNcoXsi4rnLc4q5Uaa92TvzCU11aWuU4zggQWsYQURMiooYwKLMRo1Ugxkab9uId/yPGnyCWTqwxGjgVUoUJy/OB/8LtbszAx7iaF4kDwxbY/hoGuXaBZt+3vY9tungD+Z+BKa/urDWD6k/R6W4seAX3bwMV1W5P3gMsdYPBJlwzJkfw0hUIBeD+jb8oB/bdAz5rbW2sfpw9AhrpK3gAHh8BIkbLXPd7d3dnbv2da/f0AlcVytXUZF5YAAAAGYktHRAAAAAAAAPlDu38AAAAJcEhZcwAALiMAAC4jAXilP3YAAAAHdElNRQfmBRcEJyjhngAqAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAlhJREFUeNrt3bFKHFEUgOGdsLY+RIhFGkXJC9iksAykCSxbaKOFpgiLhaVFCCniFkkISbEINoJYWdj4AqKYJkVCGt8hTSRra3UPeHN3dpzva4eZWYefu9zj6ladmu2uLI07LbZzclHVef9HHVpNAAJAAAgAASAA2qb4HrT0Pn/52eNaH+DZ+e9GzwmsAN4CEAACQAAIAAFgDmCf3545gRXAWwACQAAIAAEgAMwB7PPbMyewAngLQAAIAAEgAARAq3RL32BjbyZ5/Md+3j45d46Qe/3c83OvbwVAAAgAASAABIAAmOQcINrHRvv8p73rYB883XOC3PPrnhNYAbwFIAAEgAAQAALAHOB/ivb5H7f+Jo9vD78lj7/dXC36+uu+vxUAASAABIAAEAACoElzgGifH/3dQOl9enR+6fuX/jyDFQABIAAEgAAQAAJgknOAyGz1OXn8/aCfPP7m3ajoPj8Svb7t4ShrTmAFQAAIAAEgAASAABAAAkAACAABIAAEgAC4h+zPA+T+n7p/13+Sx6Pf99cten3Rz1f6+VoBEAACQAAIAAEgAO6oSt9gd2VpnDoefb99Z76fPH989TV5+vrpz6zX/+n5XPoBLqylL/B9VBV9PlYABIAAEAACQAAIgCmaA4SCff6DF8wJrAAIAAEgAASAABAAD2kOcPPrMjkH6L740OgHfHP0Onm8+2TRHAABIAAEgAAQAAJgUmr/voBoHzz4ctzozwvUvc+3AiAABIAAEAACQADcUTX9B3j5qpecExwe7FfTfH0rAAJAAAgAASAABMAE3QKMno3jtpP1EgAAAABJRU5ErkJggg=="
+                    class="avatar" alt="Avatar">
                 <div class="title">
                     <h1>arslee</h1>
                     <p>i build things</p>
@@ -129,7 +131,7 @@
 
             <div class="links">
                 <div class="link">
-                    <a href="https://github.com/arslee07">
+                    <a aria-label="GitHub" href="https://github.com/arslee07">
                         <div class="icon-container">
                             <svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -140,7 +142,7 @@
                 </div>
 
                 <div class="link">
-                    <a href="https://t.me/arslee07">
+                    <a aria-label="Telegram" href="https://t.me/arslee07">
                         <div class="icon-container">
                             <svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -151,7 +153,7 @@
                 </div>
 
                 <div class="link">
-                    <a href="mailto:mail@arslee.me">
+                    <a aria-label="Email" href="mailto:mail@arslee.me">
                         <div class="icon-container">
                             <svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -162,7 +164,7 @@
                 </div>
 
                 <div class="link">
-                    <a href="https://discordapp.com/users/288561857290043395">
+                    <a aria-label="Discord" href="https://discordapp.com/users/288561857290043395">
                         <div class="icon-container">
                             <svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -173,7 +175,7 @@
                 </div>
 
                 <div class="link">
-                    <a href="https://steamcommunity.com/id/arslee07">
+                    <a aria-label="Steam" href="https://steamcommunity.com/id/arslee07">
                         <div class="icon-container">
                             <svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path
